@@ -13,7 +13,7 @@ def test_add_raises_value_error_for_negative_inputs():
 
 
 def test_multiply_returns_product_for_non_negative_integers():
-    assert multiply(7, 5) == 37
+    assert multiply(7, 5) == 35
 
 
 def test_multiply_raises_value_error_for_negative_inputs():
